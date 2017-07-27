@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Сайт портфолио</title>
+    <!-- SEO -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper-big">
+        <div class="container-big">
+            <!-- Шапка -->
+            <header class="page-header">
+                <div class="page-header-wrapper">
+                    <a href="#" class="header-logo-link">
+                        <img src="img/logo.png" alt="logo" class="logo-img">
+                        <span class="header-logo-text visually-hidden">Сайт портфолио</span>
+                    </a>
+                    <!-- Соц. сети -->
+                    <div class="social-content social-content--header">
+                        <ul class="socials">
+                            <li class="socials-item">
+                                <a href="https://vk.com" target="_blank" class="socials-link socialbut-vk">Вконтакте</a>
+                            </li>
+                            <li class="socials-item">
+                                <a href="https://twitter.com" target="_blank" class="socials-link socialbut-tw">Twitter</a>
+                            </li>
+                            <li class="socials-item">
+                                <a href="https://ru-ru.facebook.com" target="_blank" class="socials-link socialbut-fb">Facebook</a>
+                            </li>
+                            <li class="socials-item">
+                                <a href="https://github.com" target="_blank" class="socials-link socialbut-git">Github</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /Соц. сети -->
+                    <a href="#" class="toggle">
+                        <div class="toggle__hamburger"></div>
+                    </a>
+                </div>
+            </header>
+            <!-- / Шапка -->
+
+            <main class="container">
+                <!-- Левые блоки -->
+                <aside class="sidebar">
+                    <!-- Навигация -->
+                    <nav class="navigation">
+                        <ul class="navigation-list">
+                            <li class="navigation-item">
+                                <a href="index.html" class="navigation-link">Обо мне</a>
+                            </li>
+                            <li class="navigation-item  current">
+                                <a href="mywork.html" class="navigation-link">Мои работы</a>
+                            </li>
+                            <li class="navigation-item">
+                                <a href="contactme.html" class="navigation-link">Связаться со мной</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- / Навигация -->
+                    <!-- Контакты -->
+                    <div class="contacts contacts-menu">
+                        <div class="contacts-header">
+                            <span class="header-inner-text">Контакты</span>
+                        </div>
+                        <ul class="contacts-list">
+                            <li class="contacts-item contacts-item-mail">
+                                <a href="mailto:pasha_at@mail.ru" class="contacts-link">
+                                    <span class="contacts-text icon-mail">pasha_at@mail.ru</span>
+                                </a>
+                            </li>
+                            <li class="contacts-item contacts-item-phone">
+                                <a href="tel:+79089500010" class="contacts-link">
+                                    <span class="contacts-text icon-phone">+79089500010</span>
+                                </a>
+                            </li>
+                            <li class="contacts-item contacts-item-skype">
+                                <a href="skype:111?chat" class="contacts-link">
+                                    <span class="contacts-text icon-skype">nickname</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- / Контакты -->
+                </aside>
+                <!-- / Левые блоки -->
+
+                <div class="variable-content">
+                    <div class="aboutbox">
+                        <div class="aboutbox-header">
+                            <h2>Мои работы</h2>
+                        </div>
+                        <div class="aboutbox-body">
+                            <div class="gallery">
+                                <ul class="gallery__list">
+                                    <li class="gallery__item">
+                                        <a href="sites/nerds/index.html" class="gallery__link" target="_blank">
+                                            <img class="gallery__img" src="img/nerds.png" alt="">
+                                            <div class="gallery__name-wrapper"><span class="gallery__name-progect">Nerds</span></div>
+                                        </a>
+                                        <span class="sitename">www.site.ru</span>
+                                        <p class="siteinfo">Верстка страницы сайта со слайдером. Учебный проект.</p>
+                                    </li>
+                                    <li class="gallery__item">
+                                        <a href="sites/technomart/index.html" class="gallery__link" target="_blank">
+                                            <img class="gallery__img" src="img/techno.png" alt="">
+                                            <div class="gallery__name-wrapper"><span class="gallery__name-progect">Technomart</span></div>
+                                        </a>
+                                        <span class="sitename">www.site.ru</span>
+                                        <p class="siteinfo">Верстка страницы магазина с каталогом. Учебный проект</p>
+                                    </li>
+                                    <li class="gallery__item">
+                                        <a href="index.html" class="gallery__link" target="_blank">
+                                            <img class="gallery__img" src="img/portfolio.png" alt="">
+                                            <div class="gallery__name-wrapper"><span class="gallery__name-progect">Portfolio</span></div>
+                                        </a>
+                                        <span class="sitename">www.site.ru</span>
+                                        <p class="siteinfo">Верстка адаптивного сайта</p>
+                                    </li>
+
+                                    <!-- <li class="gallery__item">
+										<a href="" class="gallery__link">
+											<img class="gallery__img" src="img/site4.png" alt="">
+											<div class="gallery__name-wrapper"><span class="gallery__name-progect">название</span></div>
+										</a>
+										<span class="sitename">www.site.ru</span>
+										<p class="siteinfo">Информация о проекте 4 превью 2 строки....</p>
+									</li> -->
+                                    <li class="gallery__item gallery__item--hidden">
+                                        <a href="" class="new__project">
+                                            <span class="new__project-text">Добавить проект</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+
+
+
+        </div>
+        <div class="page-footer-container">
+            <!-- Контакты -->
+            <div class="contacts contacts-bottom">
+                <div class="contacts-header">
+                    <span class="header-inner-text">Контакты</span>
+                </div>
+                <ul class="contacts-list">
+                    <li class="contacts-item contacts-item-mail">
+                        <a href="mailto:pasha_at@mail.ru" class="contacts-link">
+                            <span class="contacts-text icon-mail">pasha_at@mail.ru</span>
+                        </a>
+                    </li>
+                    <li class="contacts-item contacts-item-phone">
+                        <a href="tel:+79089500010" class="contacts-link">
+                            <span class="contacts-text icon-phone">+79089500010</span>
+                        </a>
+                    </li>
+                    <li class="contacts-item contacts-item-skype">
+                        <a href="skype:111?chat" class="contacts-link">
+                            <span class="contacts-text icon-skype">nickname</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- / Контакты -->
+
+            <!-- Соц. сети -->
+            <div class="social-content social-content--footer">
+                <ul class="socials">
+                    <li class="socials-item">
+                        <a href="https://vk.com" target="_blank" class="socials-link socialbut-vk">Вконтакте</a>
+                    </li>
+                    <li class="socials-item">
+                        <a href="https://twitter.com" target="_blank" class="socials-link socialbut-tw">Twitter</a>
+                    </li>
+                    <li class="socials-item">
+                        <a href="https://ru-ru.facebook.com" target="_blank" class="socials-link socialbut-fb">Facebook</a>
+                    </li>
+                    <li class="socials-item">
+                        <a href="https://github.com" target="_blank" class="socials-link socialbut-git">Github</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /Соц. сети -->
+            <div class="page-footer">
+                <div class="page-footer-wrapper">
+                    <div class="lock">
+                        <a href="" class="lock-inner">Войти</a>
+                    </div>
+                    <div class="copyright">&copy; 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.2.min.js"><\/script>')
+    </script>
+    <script src="js/common.js"></script>
+
+</body>
